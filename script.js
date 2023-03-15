@@ -21,6 +21,7 @@ function drawBorder(cx = 0, cy = 0){
   line.setAttributeNS(null, "y2", y2)
   line.setAttributeNS(null, "stroke-width", 5)
   line.setAttributeNS(null, "stroke", "gray")
+  line.style.pointerEvents = 'none'
   svgPhone.append(line)
 }
 // function getBorders(){
